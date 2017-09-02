@@ -36,7 +36,7 @@ defaultAvatar =
 
 image : String -> Image
 image filename =
-    Image ("/assets/images/" ++ filename)
+    Image ("%PUBLIC_URL%/assets/images/" ++ filename)
 
 
 
